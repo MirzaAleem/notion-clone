@@ -1,0 +1,15 @@
+1- To add shadcn components to the page, use following cmd in terminal:
+   npx shadcn-ui@latest add button // button for example
+2- Page Routing in nextjs is done using next.js router. Create a folder inside app folder and create any file for the page inside that folder.
+   Then, that page could be accessed using '/page-name' in the url.
+3- Also, name the folder as _folder to make it private. Then it won't be accessible in the url.
+4- (folder)	  Group routes without affecting routing, Then it can be skipped in the routing.
+5- layout.tsx- A layout is UI that is shared between routes. It can be used to add header, footer, sidebar, etc.
+              Code snippet in TS:
+              export default function DashboardLayout({
+                    children,
+                    }: {
+                    children: React.ReactNode
+                    }) {
+                    return <section>{children}</section>
+                }
