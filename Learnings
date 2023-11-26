@@ -13,3 +13,6 @@
                     }) {
                     return <section>{children}</section>
                 }
+6- ShadCN-UI is great for directly using pre-built components and can be customized using tailwind easily using "cn()" utility funtion. 
+7- Convex- It is the fullstack TypeScript development platform. Replace your database, server functions and glue code.
+8- Clerk- Clerk is more than a "sign-in box." Integrate complete user management UIs and APIs.
