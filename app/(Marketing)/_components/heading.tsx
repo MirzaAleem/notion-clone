@@ -27,7 +27,7 @@ const Heading = () => {
       )}
       {isAuthenticated && !isLoading && (
         <Button asChild>
-          <Link href="/dashboard">
+          <Link href="/documents">
             Enter Motion
             <ArrowRight className="w-4 h-4 ml-2" />
           </Link>
